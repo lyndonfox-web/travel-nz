@@ -33,7 +33,7 @@
     margin: 0;
 
     @mixin atSmall {
-      font-size: 1.5rem;
+      font-size: 1.5 rem;
     }
     @mixin atMedium {
       font-size: 2rem;
