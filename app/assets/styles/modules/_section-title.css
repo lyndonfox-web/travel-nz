@@ -11,12 +11,21 @@
     font-weight: 500;
   }
 
+  &--blue {
+    color: $lightBlue;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  }
+
   &__icon {
     display: block;
     margin: 0 auto;
     margin-bottom: 0.6rem;
+    height: 63px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 
     @mixin atSmall {
+      position: relative;
+      top: 8px;
       margin-right: 0.5rem;
       margin-left: 0;
       margin-bottom: 0;
