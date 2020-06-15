@@ -16,6 +16,11 @@
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
   }
 
+  &--less-margin {
+    margin-bottom: 1.3rem;
+    margin-top: 0;
+  }
+
   &__icon {
     display: block;
     margin: 0 auto;
