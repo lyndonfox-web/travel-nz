@@ -47,8 +47,12 @@
     @mixin atMedium {
       padding: 7px 10px;
       font-size: 1rem;
-      background-color: rgba(57, 126, 255, 0.3);
+      background-color: rgba(57, 126, 255, 0.5);
       /* background-color: transparent; */
+
+      &.is-current-link {
+        color: #fabb69;
+      }
     }
     &:hover {
       background-color: $lightBlue;
