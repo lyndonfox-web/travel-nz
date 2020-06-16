@@ -11,13 +11,11 @@
   }
 
   &--testimonials {
-    /* background-color: #e0e6ef; */
-    background: url('/assets/images/testimonials-bg1.jpg') left no-repeat;
-    background-size: cover;
+    background: url('assets/images/testimonials-bg1.jpg') left no-repeat;
+    background-size: cover !important;
     @mixin atMedium {
-      background: url('/assets/images/testimonials-bg1.jpg') top center
-        no-repeat;
-      background-size: cover;
+      background: url('assets/images/testimonials-bg1.jpg') top center no-repeat;
+      background-size: cover !important;
     }
   }
 }
