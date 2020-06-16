@@ -36,9 +36,7 @@
           <nav class="primary-nav primary-nav--pull-right">
             <ul>
               <li>
-                <a href="#our-beginning" id="our-beginning-link"
-                  >Our Beginning</a
-                >
+                <a href="#our-beginning" id="our-beginning-link">Trips</a>
               </li>
               <li><a href="#features" id="features-link">Features</a></li>
               <li>
@@ -106,6 +104,7 @@
       data-matching-link="#our-beginning-link"
     >
       <div class="wrapper">
+        <h1 class="headline--centered headline--main">Trips Planner</h1>
         <h2
           class="headline headline--centered headline--light headline--b-margin-small"
         >
@@ -120,8 +119,9 @@
 
         <div class="wrapper wrapper--medium wrapper--b-margin">
           <img
+            class="lazyload"
             sizes="(min-width: 1952px) 1952px, 100vw"
-            srcset="
+            data-srcset="
               assets/images/first-trip-low-res.jpg  565w,
               assets/images/first-trip.jpg          976w,
               assets/images/first-trip-hi-dpi.jpg  1952w
@@ -137,7 +137,7 @@
             <picture>
               <source
                 sizes="404px"
-                srcset="
+                data-srcset="
                   assets/images/our-start.jpg        404w,
                   assets/images/our-start-hi-dpi.jpg 808w
                 "
@@ -145,14 +145,15 @@
               />
               <source
                 sizes="320px"
-                srcset="
+                data-srcset="
                   assets/images/our-start-portrait.jpg        382w,
                   assets/images/our-start-portrait-hi-dpi.jpg 764w
                 "
                 media="(min-width: 800px)"
               />
               <img
-                srcset="
+                class="lazyload"
+                data-srcset="
                   assets/images/our-start-landscape.jpg         800w,
                   assets/images/our-start-landscape-hi-dpi.jpg 1600w
                 "
@@ -292,8 +293,9 @@
             <div class="testimonial">
               <div class="testimonial__photo">
                 <img
+                  class="lazyload"
                   sizes="160px"
-                  srcset="
+                  data-srcset="
                     assets/images/testimonial-jane.jpg        160w,
                     assets/images/testimonial-jane-hi-dpi.jpg 320w
                   "
@@ -317,8 +319,9 @@
             <div class="testimonial">
               <div class="testimonial__photo">
                 <img
+                  class="lazyload"
                   sizes="160px"
-                  srcset="
+                  data-srcset="
                     assets/images/testimonial-john.jpg        160w,
                     assets/images/testimonial-john-hi-dpi.jpg 320w
                   "
@@ -341,8 +344,9 @@
             <div class="testimonial testimonial--last">
               <div class="testimonial__photo">
                 <img
+                  class="lazyload"
                   sizes="160px"
-                  srcset="
+                  data-srcset="
                     assets/images/testimonial-cat.jpg        160w,
                     assets/images/testimonial-cat-hi-dpi.jpg 320w
                   "
@@ -370,7 +374,7 @@
       <div class="wrapper">
         <p>
           <span class="site-footer__text"
-            >Copyright &copy; 2019 Clear View Escapes. All rights
+            >Copyright &copy; 2020 Travel New Zealand. All rights
             reserved.</span
           >
           <a href="#" class="btn btn--orange open-modal">Get in Touch</a>
